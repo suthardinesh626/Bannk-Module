@@ -1,0 +1,46 @@
+.login_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    /* border: 2px solid rgb(236, 5, 5); */
+
+}
+
+
+.login_detail{
+    margin: 5px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    color: rgb(14, 54, 75);
+    font-size: x-large;
+    /* gap: 1.5rem; */
+    /* border: 2px solid red; */
+}
+
+.btn_login{
+    font-style: normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    /* color: rgb(50, 117, 146); */
+    height: 40px;
+    width: 120px;
+    background-color: rgba(34, 85, 98, 0.648);
+    border-radius: 4px;
+    border: 2px;
+}
+.btn_login:hover{
+    background-color: rgba(101, 140, 149, 0.648);
+}
+#mobile, #pin{
+    height: 30px;
+    width: 250px;
+    border: 3px solid rgba(18, 36, 77, 0.547);
+    border-radius: 5px;
+}

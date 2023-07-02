@@ -1,0 +1,61 @@
+.btn_addbank{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    /* border: solid 2px red; */
+    height: inherit;
+    margin: 3px;
+    padding: 6px;
+}
+
+.btn_addbank button{
+    height: 40px;
+    width: 90px;
+    color: antiquewhite;
+    background-color: rgb(73, 129, 197);
+    border-radius: 6px;
+    border: 1px;
+    cursor: pointer;
+}
+
+.btn_addbank button:hover{
+    background-color: rgb(50, 182, 182);
+    
+}
+
+.content_table{
+    /* display: flex;
+    flex-direction:column;
+    justify-content: flex-start; */
+    border-collapse: collapse;
+    width: 100%;
+    height: fit-content;
+    margin: 25px 0;
+    font-size: 1rem;
+    padding: 3px;
+    background-color: rgb(169, 196, 236);
+    /* border: 2px solid red; */
+
+}
+.content_table thead tr{
+    background-color: rgb(118, 165, 246);
+    color: rgb(8, 15, 31);
+    text-align: left;
+    font-weight: bold;
+
+}
+.content_table th,  .content_table td{
+    padding: 15px 25px;
+}
+
+.content_table tbody tr{
+    border-bottom: 2px solid grey;
+}
+
+.content_table tbody tr:nth-of-type(even){
+    background-color:rgb(103, 234, 191);
+}
+
+.content_table tbody tr:last-of-type{
+    border-bottom:3px solid rgb(13, 47, 141) ;
+}

@@ -85,15 +85,41 @@ function BankModule() {
           </tr>
         </thead>
         <tbody>
-          {banks.map((bank, index) => (
+          {/* {banks.map((bank, index) => (
             <tr key={bank.bank_id}>
               <td>{index + 1}</td>
               <td>{bank.bank_name}</td>
               <td>{bank.acc_no}</td>
               <td>{bank.status}</td>
-              <td>{/* Add action buttons here */}</td>
+              <td><button>edit</button></td>
             </tr>
-          ))}
+          ))} */}
+          <tr>
+          <td>1</td>
+          <td>Bank of India</td>
+          <td>12334456</td>
+          <td>Active</td>
+          <td><button className='btn_edite'>Edit</button></td>
+          </tr>
+          <tr>
+          <td>2</td>
+          <td>Bank of Baroda</td>
+          <td>12334459</td>
+          <td>Active</td>
+          <td><button className='btn_edite'>Edit</button></td>
+          </tr><tr>
+          <td>1</td>
+          <td>Union Bank</td>
+          <td>12334456</td>
+          <td>Active</td>
+          <td><button className='btn_edite'>Edit</button></td>
+          </tr><tr>
+          <td>1</td>
+          <td>Bank of Mahrashtra</td>
+          <td>12334456</td>
+          <td>Active</td>
+          <td><button className='btn_edite'>Edit</button></td>
+          </tr>
         </tbody>
       </table>
     </div>

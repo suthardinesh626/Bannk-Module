@@ -1,3 +1,8 @@
+*{
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:lighter;
+}
+
 .btn_addbank{
     display: flex;
     flex-direction: row;
@@ -38,7 +43,7 @@
 
 }
 .content_table thead tr{
-    background-color: rgb(118, 165, 246);
+    background-color: rgb(74, 181, 140);
     color: rgb(8, 15, 31);
     text-align: left;
     font-weight: bold;
@@ -53,9 +58,20 @@
 }
 
 .content_table tbody tr:nth-of-type(even){
-    background-color:rgb(103, 234, 191);
+    background-color:rgb(161, 223, 202);
 }
 
 .content_table tbody tr:last-of-type{
-    border-bottom:3px solid rgb(13, 47, 141) ;
+    border-bottom:3px solid rgb(1, 2, 1) ;
+}
+.btn_edite{
+    background-color: rgb(32, 98, 129);
+    border: 0px;
+    border-radius: 5px;
+    height: 25px;
+    width: 70px;
+}
+
+.content_table th{
+    font-weight: bold;
 }
